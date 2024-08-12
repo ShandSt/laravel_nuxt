@@ -1,4 +1,10 @@
-#
+# Project Setup Instructions
+
+Follow these commands to set up and run the project locally.
+
+## Use Commands
+
+```bash
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -7,6 +13,7 @@ php artisan db:seed
 php artisan storage:link
 php artisan serve
 
-Change password in the db on $2y$10$4PHCQ7UvyUE/1zVblSmJg.BKCKel.bmUY0QTvXJu3OEez5r6.6oDG
 
+## You're ready to go! Visit the url in your browser, and login with:
+Username: admin@filamentphp.com
 Password: Test7894*
